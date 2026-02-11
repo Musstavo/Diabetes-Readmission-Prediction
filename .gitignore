@@ -1,0 +1,26 @@
+# --- Python Virtual Environment ---
+.venv/
+venv/
+env/
+bin/
+lib/
+include/
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Data Files (DO NOT PUSH THESE) ---
+*.csv
+*.xlsx
+*.pkl
+*.json
+# Except our model weights!
+!src/diabetes_xgb_model.json
+
+# --- Operating System Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Python Cache ---
+__pycache__/
+*.pyc
